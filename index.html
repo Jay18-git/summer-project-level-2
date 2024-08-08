@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Website</h1>
+    </header>
+
+    <main>
+        <section id="product-list">
+            <h2>Products</h2>
+            <input type="text" id="filter-input" placeholder="Filter products...">
+            <button onclick="sortProducts()">Sort by Price</button>
+            <div id="products"></div>
+        </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <button onclick="checkout()">Checkout</</button>
+        </section>
+
+        <section id="order-history">
+            <h2>Order History</h2>
+            <div id="orders"></div>
+        </section>
+
+        <section id="video-section">
+            <h2>Product Video</h2>
+            <div id="video-container"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
